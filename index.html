@@ -1,0 +1,57 @@
+<!DOCTYPE html><!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بذور المستقبل - Future Seeds</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- الصفحة الرئيسية -->
+    <div class="page home-page">
+        <h1 class="title">🌱 بذور المستقبل - Future Seeds 🌱</h1>
+        <h2>اختر القسم الذي تريد استكشافه:</h2>
+        <div class="buttons-container">
+            <button class="nav-button" data-target="books"><i class="fas fa-book"></i> الكتب</button>
+            <button class="nav-button" data-target="videos"><i class="fas fa-video"></i> الفيديوهات</button>
+            <button class="nav-button" data-target="games"><i class="fas fa-gamepad"></i> الألعاب التعليمية</button>
+        </div>
+    </div>
+
+    <!-- قسم الكتب -->
+    <div class="page hidden" id="books">
+        <h1>📚 قسم الكتب</h1>
+        <ul>
+            <li><a href="https://drive.google.com/file/d/1WCysX6ksVW2FhhdX4xZGYKarTwVyBcyN/view?usp=drivesdk" target="_blank">كتاب 1</a></li>
+            <li><a href="https://drive.google.com/file/d/1W5GmIUxi3as-1KqpK9WDnJCKTk91Z95T/view?usp=drivesdk" target="_blank">كتاب 2</a></li>
+            <li><a href="https://drive.google.com/file/d/1W6dtpuG7XYeuwAc4hVGZze2V6AW3gmLA/view?usp=drivesdk" target="_blank">كتاب 3</a></li>
+        </ul>
+    </div>
+
+    <!-- قسم الفيديوهات -->
+    <div class="page hidden" id="videos">
+        <h1>🎥 قسم الفيديوهات</h1>
+        <ul>
+            <li><a href="https://drive.google.com/file/d/1TCstOJ6dqxej9_QQzZwP5uRnjCj8bAyp/view?usp=drivesdk" target="_blank">فيديو 1</a></li>
+            <li><a href="https://drive.google.com/file/d/1T0lQSkBzThJjxjojmua30-wXYOv6kxJz/view?usp=drivesdk" target="_blank">فيديو 2</a></li>
+            <li><a href="https://drive.google.com/file/d/1T6LN9WhZUvZKx8RLxXVBMGsPzm5gDrgY/view?usp=drivesdk" target="_blank">فيديو 3</a></li>
+        </ul>
+    </div>
+
+    <!-- قسم الألعاب -->
+    <div class="page hidden" id="games">
+        <h1>🎮 قسم الألعاب التعليمية</h1>
+        <ul>
+            <li><a href="https://docs.google.com/presentation/d/1V6MWBmqFuLQvahFJ0FT_QBq3fqKUBi-M/edit?usp=drivesdk" target="_blank">لعبة 1</a></li>
+            <li><a href="https://docs.google.com/presentation/d/1V7cciBQgU0uTrp6ytc43igTPVqMZF2he/edit?usp=drivesdk" target="_blank">لعبة 2</a></li>
+        </ul>
+    </div>
+
+    <!-- زر الرجوع -->
+    <button id="backButton" class="hidden">🔙 الرجوع إلى القائمة الرئيسية</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
